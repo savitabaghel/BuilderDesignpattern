@@ -19,7 +19,7 @@ public class HomeController {
     public String calculate(Model model)
     {
 
-        logger.error("hello from log4j 2 - num:{}",()->num);
+        logger.info("hello from log4j 2 - num:{}",()->num);
 
         return "welcome";
     }
